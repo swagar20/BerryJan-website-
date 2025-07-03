@@ -1,53 +1,43 @@
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #fff5f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 header {
-    background: #d63384;
-    color: white;
-    padding: 1em 0;
+  background: #f8f8f8;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-header h1 {
-    text-align: center;
+.logo {
+  height: 50px;
 }
 nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+nav ul li a {
+  text-decoration: none;
+  color: #333;
 }
 .hero {
-    text-align: center;
-    padding: 2em;
-    background: #f8d7da;
+  background: #ffe6ec;
+  text-align: center;
+  padding: 60px 20px;
 }
-.products {
-    padding: 2em;
-}
-.product-grid {
-    display: flex;
-    gap: 1em;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.product-card {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1em;
-    width: 200px;
-    text-align: center;
+.cta-button {
+  background: #ff5c8d;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
 }
 footer {
-    text-align: center;
-    padding: 1em;
-    background: #d63384;
-    color: white;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
 }
