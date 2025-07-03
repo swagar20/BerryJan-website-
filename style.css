@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff5f8;
+}
+header {
+    background: #d63384;
+    color: white;
+    padding: 1em 0;
+}
+header h1 {
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    list-style: none;
+    padding: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 2em;
+    background: #f8d7da;
+}
+.products {
+    padding: 2em;
+}
+.product-grid {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #d63384;
+    color: white;
+}
